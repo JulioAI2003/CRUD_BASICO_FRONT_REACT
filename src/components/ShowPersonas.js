@@ -120,7 +120,7 @@ const ShowPersonas = () => {
                   </tr>
                 </thead>
                 <tbody className="table-group-divider">
-                  {Array.isArray(personas) && personas.map((persona, i) => (
+                  {personas.map((persona, i) => (
                     <tr key={persona.id}>
                       <td>{i + 1}</td>
                       <td>{persona.nombre}</td>
